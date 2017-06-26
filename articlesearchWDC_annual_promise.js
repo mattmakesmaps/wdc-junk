@@ -48,7 +48,7 @@
     };
 
     myConnector.getData = function (table, doneCallback) {
-        var urls = [1,2,3,4,5,6,7,8,9,10,11,12].map(function (x) {
+        var urls = [1,2].map(function (x) {
             return make_url(1986, x);
         });
 
